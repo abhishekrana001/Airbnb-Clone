@@ -1,4 +1,4 @@
-import airbnb from "../assets/airbnb.png";
+import airbnb from "../assets/airbnb_img.png";
 import search from "../assets/search.png";
 import web from "../assets/web.png";
 import "../components/Navbar.css";
