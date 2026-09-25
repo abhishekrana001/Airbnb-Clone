@@ -1,0 +1,36 @@
+.section {
+    margin: 40px 6%;
+}
+
+.section-heading {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.section-heading h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.section-heading button {
+    border: none;
+    background: #f2f2f2;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    gap: 16px;
+    overflow-x: auto;
+    padding: 10px 0;
+    scrollbar-width: none;
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+}
