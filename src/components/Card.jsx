@@ -1,12 +1,12 @@
 import React from "react";
 import "../components/Card.css";
 
-function Card({ title, price, rating, image }) {
+function Card(props) {
   return (
     <div className="card-container">
 
       <div className="card-image">
-        <img src={image} alt={title} />
+        <img src={props.image} alt={props.title} />
 
         <span className="guest">Guest favourite</span>
 
@@ -14,11 +14,11 @@ function Card({ title, price, rating, image }) {
       </div>
 
       <div className="card-title">
-        {title}
+        {props.title}
       </div>
 
       <div className="card-price">
-        ₹{price} for 2 nights · ★ {rating}
+        ₹{props.price} for 2 nights · ★ {props.rating}
       </div>
 
     </div>

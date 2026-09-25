@@ -1,4 +1,4 @@
-import airbnb from "../assets/airbnb_img.png";
+import profile from "../assets/profile.png";
 import search from "../assets/search.png";
 import web from "../assets/web.png";
 import "../components/Navbar.css";
@@ -6,7 +6,7 @@ function Navbar() {
   return (
    <nav className='nav-container'>
     <div id="title">
-        <img src={airbnb} alt="airbnb" />
+        <img src={profile} alt="airbnb" />
         <p id="nav-text"><b>airbnb</b></p>
     </div>
         <div id="nav-search">
